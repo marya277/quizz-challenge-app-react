@@ -3,6 +3,7 @@ import axios from 'axios';
 import "../styles.css"
 import Card from './Card';
 import Score from './Score';
+
 const PlayQuiz = () => {
   const [questions, setQuestions] = useState([]);
   const [currentQuestions, setCurrentQuestions] = useState(0);

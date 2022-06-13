@@ -13,7 +13,7 @@ const Score = ({ answerUser }) => {
                 <div className='row d-grid'>
                     <div className='border border-info my-2'>
                         <div>
-                        <span className='text-success fs-2'>{item.answer === "true" ? "+" : "-"}</span>
+                        <span className='fs-2' style={{color:'blue'}}>{item.answer === "true" ? "+" : "-"}</span>
                             {item.question}
                         </div>
                     </div>
